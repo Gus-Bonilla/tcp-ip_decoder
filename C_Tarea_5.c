@@ -43,6 +43,8 @@ void print_tcp_results(struct ip_frame *ip, int frame_number);
 void print_udp_results(struct ip_frame *ip, int frame_number);
 
 int int main(char const *argv[]){
+	// Para Gus
+
 	char frames[AMMOUNT_FRAMES][SIZE_FRAME];
 	struct ip_frame *ip_frames[AMMOUNT_FRAMES];
 	struct tcp_frame *tcp_frames[AMMOUNT_FRAMES];
@@ -77,20 +79,25 @@ int int main(char const *argv[]){
 
 char fill_ip_frame(char *frame, struct ip_frame *ip){
 	// Faltante de definir
+	// Para Cardona (Pepe)
 }
 
 void fill_tcp_frame(char *frame, struct tcp_frame *tcp){
 	// Faltante de definir
+	// Para Cardona (Pepe)
 }
 
 void fill_udp_frame(char *frame, struct udp_frame *udp){
 	// Faltante de definir
+	// Para Gus
 }
 
 void print_tcp_results(struct ip_frame *ip, int frame_number){
 	// Faltante de definir
+	// Para Rodriguez (Toño)
 }
 
 void print_udp_results(struct ip_frame *ip, int frame_number){
 	// Faltante de definir
+	// Para Rodriguez (Toño)
 }
